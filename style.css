@@ -1,6 +1,12 @@
-#pong {
-    left: 0;
-    right: 0;
-    margin: 0px;
-    padding: 0px;
+body {
+    overflow: hidden;
+    background: rgba(0,0,0,0.7);
+}
+
+canvas {
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
